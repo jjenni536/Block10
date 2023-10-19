@@ -1,6 +1,5 @@
 html {
   background-color:black ;
-
 }
 
 body {
@@ -21,14 +20,52 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  row-gap: 10px;
   margin: 25px;
   align-content: space-around;
-  width: ;
-
 }
 img {
-  width: 300px;
-  height: 350px;
-  padding: 10px;
+  width: 400px;
+  height: 450px;
+  padding: 1px;
+  clip-path: polygon(50% 0%, 61% 35%, 98%
+   35%, 68% 57%, 85% 100%, 50% 70%, 
+   14% 100%, 32% 57%, 2% 35%, 39% 35%);
+}
+h1{
+  font-size: 5em;
+  line-height: .6;
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  display: block;
+  width: 100%;
+}
+input {
+  background-color: white;
+  color: cornflowerblue;
+}
+fieldset > legend {
+  color: cornflowerblue;
+  font-size: 1.5em;
+  margin: 35px;
+}
+#info {
+  color: white;
+  text-align: center;
+  line-height: 1.5em;
+  font-family: serif;
+  font-size: 3em;
+  top: 120px;
+  position: relative;
+  padding-bottom: 70px;
+}
+fieldset > label {
+  color: white;
+  text-decoration: underline;
+}
+fieldset {
+  text-align: center;
+  border-color: cornflowerblue;
 }
